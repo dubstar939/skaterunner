@@ -2,6 +2,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="description" content="Third Coast Shread - An awesome skateboarding game by 939PRO Studios. Jump, perform tricks, and avoid obstacles!" />
+    <meta name="theme-color" content="#1a1a2e" />
+    <meta property="og:title" content="Third Coast Shread by 939PRO Studios" />
+    <meta property="og:description" content="An awesome skateboarding game. Jump, perform tricks, and avoid obstacles!" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" />
     <title>Third Coast Shread by 939PRO Studios</title>
     <style>
         * {
@@ -1630,6 +1636,7 @@
             }
 
             // ---- init ----
+            loadSprite();
             resetGame();
             state = 'start';
             requestAnimationFrame(gameLoop);
