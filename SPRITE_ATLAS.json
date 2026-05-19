@@ -1,0 +1,176 @@
+{
+  "spriteSheet": {
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "cols": 16,
+    "rows": 8,
+    "totalFrames": 128,
+    "format": "PNG",
+    "generated": "procedurally via canvas API"
+  },
+  "animations": {
+    "idle": { 
+      "row": 0, 
+      "col": 0, 
+      "frames": 4, 
+      "fps": 8,
+      "description": "Standing still, breathing animation"
+    },
+    "run": { 
+      "row": 0, 
+      "col": 4, 
+      "frames": 8, 
+      "fps": 12,
+      "description": "Running cycle without skateboard"
+    },
+    "skateIdle": { 
+      "row": 1, 
+      "col": 0, 
+      "frames": 4, 
+      "fps": 6,
+      "description": "Standing on skateboard, slight bob"
+    },
+    "skatePush": { 
+      "row": 1, 
+      "col": 4, 
+      "frames": 6, 
+      "fps": 10,
+      "description": "Pushing off with back foot"
+    },
+    "skateCruise": { 
+      "row": 1, 
+      "col": 10, 
+      "frames": 4, 
+      "fps": 8,
+      "description": "Riding at high speed"
+    },
+    "jumpStart": { 
+      "row": 2, 
+      "col": 0, 
+      "frames": 4, 
+      "fps": 12,
+      "description": "Crouch and launch into jump"
+    },
+    "jumpMid": { 
+      "row": 2, 
+      "col": 4, 
+      "frames": 4, 
+      "fps": 8,
+      "description": "Mid-air pose"
+    },
+    "jumpDouble": { 
+      "row": 2, 
+      "col": 8, 
+      "frames": 4, 
+      "fps": 10,
+      "description": "Double jump extension"
+    },
+    "jumpLand": { 
+      "row": 2, 
+      "col": 12, 
+      "frames": 4, 
+      "fps": 12,
+      "description": "Landing and recovery"
+    },
+    "kickflip": { 
+      "row": 3, 
+      "col": 0, 
+      "frames": 6, 
+      "fps": 15,
+      "description": "Kickflip trick rotation"
+    },
+    "ollie": { 
+      "row": 3, 
+      "col": 6, 
+      "frames": 5, 
+      "fps": 12,
+      "description": "Ollie jump trick"
+    },
+    "manual": { 
+      "row": 3, 
+      "col": 11, 
+      "frames": 4, 
+      "fps": 8,
+      "description": "Manual balance on back wheels"
+    },
+    "airGrab": { 
+      "row": 4, 
+      "col": 0, 
+      "frames": 6, 
+      "fps": 12,
+      "description": "Air grab trick"
+    },
+    "spin360": { 
+      "row": 4, 
+      "col": 6, 
+      "frames": 8, 
+      "fps": 15,
+      "description": "Full 360 degree spin"
+    },
+    "wipeoutTrip": { 
+      "row": 5, 
+      "col": 0, 
+      "frames": 4, 
+      "fps": 12,
+      "description": "Tripping and falling"
+    },
+    "wipeoutRoll": { 
+      "row": 5, 
+      "col": 4, 
+      "frames": 6, 
+      "fps": 10,
+      "description": "Rolling on ground"
+    },
+    "wipeoutSlide": { 
+      "row": 5, 
+      "col": 10, 
+      "frames": 4, 
+      "fps": 8,
+      "description": "Sliding across ground"
+    },
+    "wipeoutRecover": { 
+      "row": 6, 
+      "col": 0, 
+      "frames": 6, 
+      "fps": 8,
+      "description": "Getting back up"
+    }
+  },
+  "characterColors": {
+    "hair": "#4CAF50",
+    "hairShadow": "#2E7D32",
+    "sunglasses": "#FF9800",
+    "sunglassesFrame": "#FFB74D",
+    "skin": "#FFCC80",
+    "skinShadow": "#F5A962",
+    "jacket": "#9C27B0",
+    "jacketShadow": "#7B1FA2",
+    "pants": "#2196F3",
+    "pantsShadow": "#1976D2",
+    "shoes": "#FFFFFF",
+    "shoesShadow": "#E0E0E0",
+    "skateboard": "#FF5722",
+    "skateboardGrip": "#424242",
+    "skateboardWheels": "#FFEB3B"
+  },
+  "parallaxLayers": {
+    "background": { 
+      "scrollSpeed": 0.2, 
+      "depth": 0, 
+      "repeat": true,
+      "description": "Distant buildings, sky elements"
+    },
+    "midground": { 
+      "scrollSpeed": 0.5, 
+      "depth": 1, 
+      "repeat": true,
+      "description": "Medium distance structures"
+    },
+    "foreground": { 
+      "scrollSpeed": 1.0, 
+      "depth": 2, 
+      "repeat": false,
+      "description": "Ground details, road markings"
+    }
+  }
+}
